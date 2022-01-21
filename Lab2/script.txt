@@ -1,0 +1,212 @@
+Script started on 2021-11-24 11:43:45-06:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="141" LINES="10"]
+hough084@csel-kh1262-12:~/4001/Lab2$ gcc -Wall -O newLab2.c
+hough084@csel-kh1262-12:~/4001/Lab2$ ./a.out 
+Error: Usage: ./a.out [myList <directory path | find <directory path>]
+hough084@csel-kh1262-12:~/4001/Lab2$ ./a.out myPath fakw[Ke
+Error: Usage: ./a.out [myList <directory path> | find <directory path>]
+hough084@csel-kh1262-12:~/4001/Lab2$ ./a,u[K[K.out myList fake
+Cannot open directory 'fake'
+List function time: 1.000000 sec
+hough084@csel-kh1262-12:~/4001/Lab2$ ./a.out myList ~/
+drwx------ 2 hough084 CSEL-student   6 Wed Nov 24 11:43:54 2021
+   .
+drwx------ 3 hough084 CSEL-student   4 Wed Nov 24 11:40:31 2021
+   ..
+drwx------ 3 hough084 CSEL-student   4 Wed Nov 24 11:40:31 2021
+   .local
+-rwx------ 3 hough084 CSEL-student   4 Wed Nov 24 11:40:31 2021
+   .viminfo
+drwx------ 3 hough084 CSEL-student   4 Wed Nov 24 11:40:31 2021
+   Downloads
+-rwx------ 3 hough084 CSEL-student   4 Wed Nov 24 11:40:31 2021
+   fromprog.tmp
+drwx------ 3 hough084 CSEL-student   4 Wed Nov 24 11:40:31 2021
+   4001
+drwx------ 3 hough084 CSEL-student   4 Wed Nov 24 11:40:31 2021
+   .gnupg
+drwx------ 3 hough084 CSEL-student   4 Wed Nov 24 11:40:31 2021
+   Videos
+drwx------ 3 hough084 CSEL-student   4 Wed Nov 24 11:40:31 2021
+   .vscode-server
+-rwx------ 3 hough084 CSEL-student   4 Wed Nov 24 11:40:31 2021
+   .vas_disauthcc_982114
+-rwx------ 3 hough084 CSEL-student   4 Wed Nov 24 11:40:31 2021
+   .vas_logon_server
+drwx------ 3 hough084 CSEL-student   4 Wed Nov 24 11:40:31 2021
+   .pki
+-rwx------ 3 hough084 CSEL-student   4 Wed Nov 24 11:40:31 2021
+   .wget-hsts
+drwx------ 3 hough084 CSEL-student   4 Wed Nov 24 11:40:31 2021
+   .config
+drwx------ 3 hough084 CSEL-student   4 Wed Nov 24 11:40:31 2021
+   Templates
+drwx------ 3 hough084 CSEL-student   4 Wed Nov 24 11:40:31 2021
+   Music
+drwx------ 3 hough084 CSEL-student   4 Wed Nov 24 11:40:31 2021
+   .gconf
+drwx------ 3 hough084 CSEL-student   4 Wed Nov 24 11:40:31 2021
+   Pictures
+drwx------ 3 hough084 CSEL-student   4 Wed Nov 24 11:40:31 2021
+   Documents
+drwx------ 3 hough084 CSEL-student   4 Wed Nov 24 11:40:31 2021
+   .mozilla
+drwx------ 3 hough084 CSEL-student   4 Wed Nov 24 11:40:31 2021
+   MachArch
+drwx------ 3 hough084 CSEL-student   4 Wed Nov 24 11:40:31 2021
+   .ssh
+-rwx------ 3 hough084 CSEL-student   4 Wed Nov 24 11:40:31 2021
+   .bash_history
+drwx------ 3 hough084 CSEL-student   4 Wed Nov 24 11:40:31 2021
+   .fastx_server
+drwx------ 3 hough084 CSEL-student   4 Wed Nov 24 11:40:31 2021
+   .vscode
+-rwx------ 3 hough084 CSEL-student   4 Wed Nov 24 11:40:31 2021
+   .ICEauthority
+drwx------ 3 hough084 CSEL-student   4 Wed Nov 24 11:40:31 2021
+   Desktop
+drwx------ 3 hough084 CSEL-student   4 Wed Nov 24 11:40:31 2021
+   .cache
+-rwx------ 3 hough084 CSEL-student   4 Wed Nov 24 11:40:31 2021
+   {home}
+drwx------ 3 hough084 CSEL-student   4 Wed Nov 24 11:40:31 2021
+   Public
+List function time: 0.072977 sec
+hough084@csel-kh1262-12:~/4001/Lab2$ ./a.out find ~/
+Enter the file you would like to find:QUESTIONS.txt
+Found the file!!
+The path is: /home/hough084//MachArch/hw08-code/QUESTIONS.txt
+Found the file!!
+The path is: /home/hough084//MachArch/lab08-code/QUESTIONS.txt
+Found the file!!
+The path is: /home/hough084//MachArch/hw07-code/QUESTIONS.txt
+Found the file!!
+The path is: /home/hough084//MachArch/proj4-code/QUESTIONS.txt
+Found the file!!
+The path is: /home/hough084//MachArch/lab07-code/QUESTIONS.txt
+Found the file!!
+The path is: /home/hough084//Desktop/hw07-code/QUESTIONS.txt
+Find function time: 0.224209 sec
+hough084@csel-kh1262-12:~/4001/Lab2$ ./a.out ~/MachArch
+Error: Usage: ./a.out [myList <directory path> | find <directory path>]
+hough084@csel-kh1262-12:~/4001/Lab2$ list_main[K[K[K[K[K[K[K[K[K./a.out find ~/MachArch
+Enter the file you would like to find:list_main.c
+Found the file!!
+The path is: /home/hough084/MachArch/proj4-code/timing/list_main.c
+Find function time: 0.000914 sec
+hough084@csel-kh1262-12:~/4001/Lab2$ ./a.out myList ~/MachArch
+drwx------ 2 hough084 CSEL-student   6 Wed Nov 24 11:43:54 2021
+   .
+drwx------ 3 hough084 CSEL-student   4 Wed Nov 24 11:40:31 2021
+   ..
+drwx------ 3 hough084 CSEL-student   4 Wed Nov 24 11:40:31 2021
+   hw08-code
+drwx------ 3 hough084 CSEL-student   4 Wed Nov 24 11:40:31 2021
+   lab08-code
+drwx------ 3 hough084 CSEL-student   4 Wed Nov 24 11:40:31 2021
+   proj3-code
+drwx------ 3 hough084 CSEL-student   4 Wed Nov 24 11:40:31 2021
+   proj2-code
+drwx------ 3 hough084 CSEL-student   4 Wed Nov 24 11:40:31 2021
+   hw07-code
+drwx------ 3 hough084 CSEL-student   4 Wed Nov 24 11:40:31 2021
+   proj4-code
+drwx------ 3 hough084 CSEL-student   4 Wed Nov 24 11:40:31 2021
+   lab07-code
+List function time: 0.007333 sec
+hough084@csel-kh1262-12:~/4001/Lab2$ ./a.out myList ~/MachArch/lab-7[K[K07-code
+drwx------ 2 hough084 CSEL-student   6 Wed Nov 24 11:43:54 2021
+   .
+drwx------ 3 hough084 CSEL-student   4 Wed Nov 24 11:40:31 2021
+   ..
+-rwx------ 3 hough084 CSEL-student   4 Wed Nov 24 11:40:31 2021
+   QUESTIONS.txt.bak
+-rwx------ 3 hough084 CSEL-student   4 Wed Nov 24 11:40:31 2021
+   QUESTIONS.txt
+-rwx------ 3 hough084 CSEL-student   4 Wed Nov 24 11:40:31 2021
+   testy
+-rwx------ 3 hough084 CSEL-student   4 Wed Nov 24 11:40:31 2021
+   Makefile
+-rwx------ 3 hough084 CSEL-student   4 Wed Nov 24 11:40:31 2021
+   superscalar_main.c
+-rwx------ 3 hough084 CSEL-student   4 Wed Nov 24 11:40:31 2021
+   test_quiz_filter
+-rwx------ 3 hough084 CSEL-student   4 Wed Nov 24 11:40:31 2021
+   test_lab07.org
+-rwx------ 3 hough084 CSEL-student   4 Wed Nov 24 11:40:31 2021
+   superscalar_funcs.c
+-rwx------ 3 hough084 CSEL-student   4 Wed Nov 24 11:40:31 2021
+   QUESTIONS.sha256
+List function time: 0.040231 sec
+hough084@csel-kh1262-12:~/4001/Lab2$ ./a.out find ~/MachArch/lab07-code
+Enter the file you would like to find:test_lab07.org
+Found the file!!
+The path is: /home/hough084/MachArch/lab07-code/test_lab07.org
+Find function time: 0.000373 sec
+hough084@csel-kh1262-12:~/4001/Lab2$ ./a.out myList ~/
+drwx------ 2 hough084 CSEL-student   6 Wed Nov 24 11:43:54 2021
+   .
+drwx------ 3 hough084 CSEL-student   4 Wed Nov 24 11:40:31 2021
+   ..
+drwx------ 3 hough084 CSEL-student   4 Wed Nov 24 11:40:31 2021
+   .local
+-rwx------ 3 hough084 CSEL-student   4 Wed Nov 24 11:40:31 2021
+   .viminfo
+drwx------ 3 hough084 CSEL-student   4 Wed Nov 24 11:40:31 2021
+   Downloads
+-rwx------ 3 hough084 CSEL-student   4 Wed Nov 24 11:40:31 2021
+   fromprog.tmp
+drwx------ 3 hough084 CSEL-student   4 Wed Nov 24 11:40:31 2021
+   4001
+drwx------ 3 hough084 CSEL-student   4 Wed Nov 24 11:40:31 2021
+   .gnupg
+drwx------ 3 hough084 CSEL-student   4 Wed Nov 24 11:40:31 2021
+   Videos
+drwx------ 3 hough084 CSEL-student   4 Wed Nov 24 11:40:31 2021
+   .vscode-server
+-rwx------ 3 hough084 CSEL-student   4 Wed Nov 24 11:40:31 2021
+   .vas_disauthcc_982114
+-rwx------ 3 hough084 CSEL-student   4 Wed Nov 24 11:40:31 2021
+   .vas_logon_server
+drwx------ 3 hough084 CSEL-student   4 Wed Nov 24 11:40:31 2021
+   .pki
+-rwx------ 3 hough084 CSEL-student   4 Wed Nov 24 11:40:31 2021
+   .wget-hsts
+drwx------ 3 hough084 CSEL-student   4 Wed Nov 24 11:40:31 2021
+   .config
+drwx------ 3 hough084 CSEL-student   4 Wed Nov 24 11:40:31 2021
+   Templates
+drwx------ 3 hough084 CSEL-student   4 Wed Nov 24 11:40:31 2021
+   Music
+drwx------ 3 hough084 CSEL-student   4 Wed Nov 24 11:40:31 2021
+   .gconf
+drwx------ 3 hough084 CSEL-student   4 Wed Nov 24 11:40:31 2021
+   Pictures
+drwx------ 3 hough084 CSEL-student   4 Wed Nov 24 11:40:31 2021
+   Documents
+drwx------ 3 hough084 CSEL-student   4 Wed Nov 24 11:40:31 2021
+   .mozilla
+drwx------ 3 hough084 CSEL-student   4 Wed Nov 24 11:40:31 2021
+   MachArch
+drwx------ 3 hough084 CSEL-student   4 Wed Nov 24 11:40:31 2021
+   .ssh
+-rwx------ 3 hough084 CSEL-student   4 Wed Nov 24 11:40:31 2021
+   .bash_history
+drwx------ 3 hough084 CSEL-student   4 Wed Nov 24 11:40:31 2021
+   .fastx_server
+drwx------ 3 hough084 CSEL-student   4 Wed Nov 24 11:40:31 2021
+   .vscode
+-rwx------ 3 hough084 CSEL-student   4 Wed Nov 24 11:40:31 2021
+   .ICEauthority
+drwx------ 3 hough084 CSEL-student   4 Wed Nov 24 11:40:31 2021
+   Desktop
+drwx------ 3 hough084 CSEL-student   4 Wed Nov 24 11:40:31 2021
+   .cache
+-rwx------ 3 hough084 CSEL-student   4 Wed Nov 24 11:40:31 2021
+   {home}
+drwx------ 3 hough084 CSEL-student   4 Wed Nov 24 11:40:31 2021
+   Public
+List function time: 0.055859 sec
+hough084@csel-kh1262-12:~/4001/Lab2$ exit
+exit
+
+Script done on 2021-11-24 11:47:29-06:00 [COMMAND_EXIT_CODE="0"]
