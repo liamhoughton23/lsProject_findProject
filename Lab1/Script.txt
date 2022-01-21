@@ -1,0 +1,50 @@
+Script started on 2021-10-20 17:06:24-05:00 [TERM="xterm-256color" TTY="/dev/tty1" COLUMNS="168" LINES="44"]
+]0;lambam@LAPTOP-5G85SS9U: /mnt/c/Users/liamh/OneDrive/Desktop/4001/Lab1[01;32mlambam@LAPTOP-5G85SS9U[00m:[01;34m/mnt/c/Users/liamh/OneDrive/Desktop/4001/Lab1[00m$ gcc lab1N.c -o lab1
+]0;lambam@LAPTOP-5G85SS9U: /mnt/c/Users/liamh/OneDrive/Desktop/4001/Lab1[01;32mlambam@LAPTOP-5G85SS9U[00m:[01;34m/mnt/c/Users/liamh/OneDrive/Desktop/4001/Lab1[00m$ ./lab1
+Enter a string >ls -la
+total 32
+drwxrwxrwx 1 lambam lambam  4096 Oct 20 17:06 .
+drwxrwxrwx 1 lambam lambam  4096 Oct 13 16:52 ..
+drwxrwxrwx 1 lambam lambam  4096 Oct 11 14:03 .vscode
+drwxrwxrwx 1 lambam lambam  4096 Oct 20 17:05 Example
+-rwxrwxrwx 1 lambam lambam     0 Oct 20 17:06 Script.txt
+-rwxrwxrwx 1 lambam lambam 17496 Oct 20 17:06 lab1
+-rwxrwxrwx 1 lambam lambam  1621 Oct 20 17:05 lab1N.c
+-rwxrwxrwx 1 lambam lambam  1052 Oct 20 17:03 readme.txt
+Enter a string >mkdir Example1
+Enter a string >ls
+Example  Example1  Script.txt  lab1  lab1N.c  readme.txt
+Enter a string >rm -r Example  1
+Enter a string >ls
+Example  Script.txt  lab1  lab1N.c  readme.txt
+Enter a string >rm -r  -r Example
+Enter a string >ls
+Script.txt  lab1  lab1N.c  readme.txt
+Enter a string >showProc
+Failed to exec: 
+: No such file or directory
+Enter a string >showProcs
+Number of new processes created: 8
+Enter a string >ad
+Failed to exec: 
+: No such file or directory
+Enter a string >touch newFie le.txt
+Enter a string >ls
+Script.txt  lab1  lab1N.c  newFile.txt	readme.txt
+Enter a string >rm newFile.txt
+Enter a string >ls -la
+total 32
+drwxrwxrwx 1 lambam lambam  4096 Oct 20 17:08 .
+drwxrwxrwx 1 lambam lambam  4096 Oct 13 16:52 ..
+drwxrwxrwx 1 lambam lambam  4096 Oct 11 14:03 .vscode
+-rwxrwxrwx 1 lambam lambam     0 Oct 20 17:06 Script.txt
+-rwxrwxrwx 1 lambam lambam 17496 Oct 20 17:06 lab1
+-rwxrwxrwx 1 lambam lambam  1621 Oct 20 17:05 lab1N.c
+-rwxrwxrwx 1 lambam lambam  1052 Oct 20 17:03 readme.txt
+Enter a string >mv    showProcs
+Number of new processes created: 13
+Enter a string >quit
+]0;lambam@LAPTOP-5G85SS9U: /mnt/c/Users/liamh/OneDrive/Desktop/4001/Lab1[01;32mlambam@LAPTOP-5G85SS9U[00m:[01;34m/mnt/c/Users/liamh/OneDrive/Desktop/4001/Lab1[00m$ exit
+exit
+
+Script done on 2021-10-20 17:08:41-05:00 [COMMAND_EXIT_CODE="0"]
